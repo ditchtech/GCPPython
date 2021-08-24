@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "5624ec4c-abdf-4d1d-8a68-bbed08d93595",
+		"name": "PythonREST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AppgetStudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APPgetStudentById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:7000/student/109",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "7000",
+					"path": [
+						"student",
+						"109"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AppaddStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n        \"firstName\": \"Anthony\",\r\n        \"lastName\": \"jojo\",\r\n        \"stuAddress\": \"CLASSA\",\r\n        \"stuClass\": \"19 Sam Lane PIN 801426\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/student/110",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"student",
+						"110"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AppupdateStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n        \"firstName\": \"Anthony\",\r\n        \"lastName\": \"jojo\",\r\n        \"stuAddress\": \"CLASSA\",\r\n        \"stuClass\": \"19 Sam Lane PIN 801426\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/student/110",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"student",
+						"110"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
