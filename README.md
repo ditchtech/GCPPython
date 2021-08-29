@@ -1,6 +1,6 @@
 # GCPPython
 The file reads setup data from BigQuery table, which can be updated for feeding inputs to the script.</br>
-
+<p><h2>Row Access</h2></p>
 <p><u>BQ Codes -</u></p>
 
 <p>DROP ALL ROW ACCESS POLICIES ON `projectid.TestData.international_debt`;</p>
