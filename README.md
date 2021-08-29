@@ -92,6 +92,21 @@ Note, admin functionality has not been implemented and can be left out blank.</b
 
 <p>Access permissions should be of format identical to where clause :country_name in (&#39;Sri Lanka&#39;,&#39;Vietnam&#39;,&#39;China&#39;,&#39;Hong Kong&#39;,&#39;Indonesia&#39;,&#39;India&#39;)</p>
 
+
+
+</p>
+<p><H2>JWTTest</H2></p>
+
+<p>Program runs a simple test to request access scope to cloud resources to validate SA key.</p>
+
+<p>Note you should have requesting access to project.</p>
+
+<p>&lt;keyfile&gt; - SA key json file downloaded when Service account key was generated.</p>
+
+<p>&lt;project&gt; - Project to which cloud access is requested</p>
+
+<p>Note:- You may need to install&nbsp;google-auth libraries</p>
+</p>
 <h3 align="left">Connect with me:</h3>
 <a href="https://linkedin.com/in/anthonygomescal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anthonygomescal" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/raptorx" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="raptorx" height="30" width="40" /></a>
